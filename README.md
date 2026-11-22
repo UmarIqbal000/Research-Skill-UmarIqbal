@@ -1,108 +1,125 @@
+<div align="center">
+
 # Research-Skill-UmarIqbal
 
-<p align="center">
-  <img src="assets/banner.png" alt="Research-Skill-UmarIqbal Banner" width="100%"/>
-</p>
+<img src="assets/banner.png" alt="Research-Skill-UmarIqbal Banner" width="100%"/>
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"/></a>
-  <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-3776AB.svg?logo=python&logoColor=white" alt="Python Version"/>
-  <img src="https://img.shields.io/badge/LaTeX-MiKTeX%20%7C%20TeX%20Live-008080.svg?logo=latex&logoColor=white" alt="LaTeX Supported"/>
-  <img src="https://img.shields.io/badge/Output-PDF%20%7C%20DOCX%20%7C%20PPTX%20%7C%20LaTeX-E67E22.svg" alt="Output Formats"/>
-  <img src="https://img.shields.io/badge/Em--Dashes-Strictly%20Zero-E74C3C.svg" alt="Em-Dashes Strictly Zero"/>
-  <img src="https://img.shields.io/badge/AI--Watermarks-Purged-8E44AD.svg" alt="AI Watermarks Purged"/>
-</p>
+<br/>
 
-<p align="center">
-  <strong>A unified, end-to-end academic research skill and CLI ecosystem. Transforms topics, questions, raw data, or literature surveys into publication-ready research papers, scientific figures, and conference presentations.</strong>
-</p>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License: MIT"/></a>
+<img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"/>
+<img src="https://img.shields.io/badge/LaTeX-MiKTeX%20%7C%20TeX%20Live-008080.svg?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX Supported"/>
+<img src="https://img.shields.io/badge/Output-PDF%20%7C%20DOCX%20%7C%20PPTX%20%7C%20LaTeX-E67E22.svg?style=for-the-badge" alt="Output Formats"/>
+<img src="https://img.shields.io/badge/Em--Dashes-Strictly%20Zero-E74C3C.svg?style=for-the-badge" alt="Em-Dashes Strictly Zero"/>
+<img src="https://img.shields.io/badge/AI--Watermarks-Purged-8E44AD.svg?style=for-the-badge" alt="AI Watermarks Purged"/>
+
+<br/><br/>
+
+### 🔬 The Autonomous Academic Research, Simulation, and Publication Ecosystem
+
+*Transforming raw concepts, datasets, or literature surveys into publication-ready research papers, scientific figures, and conference presentations.*
+
+<br/>
+
+---
+
+### 📑 Quick Navigation
+
+[🌟 Features](#-features-overview) • [🔄 Architecture Pipeline](#-visual-architecture--pipeline) • [📊 Figure Showcase](#-visual-figure-showcase) • [🎯 Difficulty Tiers](#-the-4-difficulty-tiers) • [🚫 Anti-AI & No Em-Dash Policy](#-strict-no-em-dash--anti-ai-policy) • [🚀 Quickstart](#-quickstart--installation) • [💻 CLI Reference](#-command-line-interface-cli) • [📜 License](#-license--citation)
 
 ---
 
-## 📑 Table of Contents
-
-- [🌟 Features Overview](#-features-overview)
-- [🔄 Visual Architecture & Pipeline](#-visual-architecture--pipeline)
-- [📊 Visual Figure & Plot Gallery](#-visual-figure--plot-gallery)
-- [🎯 The 4 Difficulty Tiers](#-the-4-difficulty-tiers)
-- [🚫 Strict No Em-Dash & Anti-AI Policy](#-strict-no-em-dash--anti-ai-policy)
-- [🚀 Quickstart & Installation](#-quickstart--installation)
-- [💻 Command Line Interface (CLI)](#-command-line-interface-cli)
-- [🏛️ The 14 Integrated Research Foundations](#-the-14-integrated-research-foundations)
-- [📁 Repository Structure](#-repository-structure)
-- [🔬 Pre-Compiled Working Examples](#-pre-compiled-working-examples)
-- [📜 License & Citation](#-license--citation)
-
----
+<br/>
 
 ## 🌟 Features Overview
 
-- **Flexible Topic & Trend Discovery**: Query the arXiv API in real time, extract high-velocity trends, or begin with your own custom problem formulation.
-- **Novelty Verification & Gap Analysis**: Formulate the State-of-the-Art (SOTA) comparison matrix and verify the "Triple Gap" (Structural, Efficiency, and Robustness).
-- **Multi-Modal Data & Simulation Engine**: Parse user-provided datasets without downsampling, run Monte Carlo stochastic simulations, or extract benchmark results with citations.
-- **Publication-Grade Figures**: Automatically generated in print dimensions (89 mm single-column and 183 mm double-column) in vector PDF and 300+ DPI PNG previews.
-- **Strict Anti-AI Humanization**: Eliminates robotic vocabulary, strips invisible zero-width tracking characters, and optimizes sentence burstiness.
-- **Absolute Prohibition of Em Dashes**: Never allows em dashes anywhere in manuscripts, captions, code, or presentations.
-- **Multi-Journal LaTeX & Word Formatting**: Out-of-the-box support for IEEE, ACM, Springer LNCS, Elsevier, Nature, Science, NeurIPS, and APA formats.
-- **Automated Compilation & Workspace Cleanup**: Compiles LaTeX via `pdflatex` and automatically purges all temporary files (`.aux`, `.log`, `.bbl`, `.blg`).
-- **Academic Conference Presentations**: Generates 16:9 widescreen academic slide decks (`.pptx`) with Action Titles and two-column exhibit layouts.
+| Feature Category | Capability Highlights | Supported Formats / Engines |
+| :---: | :--- | :---: |
+| **Topic & Trend Discovery** | Live arXiv API queries, hot-domain frontier exploration, topic brief synthesis | arXiv API, REST, JSON |
+| **Novelty & Gap Analysis** | SOTA comparison matrix, Triple Gap identification, novelty gatekeeper check | Markdown, LaTeX booktabs |
+| **Scientific Simulation** | Monte Carlo stochastic diffusion, dynamical systems, decentralized consensus | Python, NumPy, SciPy |
+| **Publication Visuals** | Print dimensions (89 mm / 183 mm), Nature and IEEE palettes, minimal-ink design | Vector PDF + 300+ DPI PNG |
+| **Anti-AI Humanizer** | Purges zero-width tracking tokens, removes AI tells, eliminates all em dashes | Regex, ASCII normalizer |
+| **Multi-Journal LaTeX** | Out-of-the-box styling for IEEE, ACM, Springer LNCS, Elsevier, Nature, and APA | pdflatex, bibtex, LaTeXmk |
+| **Workspace Cleanup** | Automated multi-pass build with zero leftover temporary files | Auto-purge `.aux`, `.log`, `.bbl` |
+| **Academic Slides (PPTX)** | 16:9 widescreen presentation deck with Action Titles and two-column exhibits | python-pptx, 16:9 HD |
+
+<br/>
 
 ---
 
 ## 🔄 Visual Architecture & Pipeline
 
+<img src="assets/pipeline_workflow.png" alt="End-to-End Research Pipeline Architecture" width="100%"/>
+
 <p align="center">
-  <img src="assets/pipeline_workflow.png" alt="End-to-End Research Pipeline Flowchart" width="100%"/>
+  <em>Figure 1: The closed-loop autonomous research pipeline from initial topic ingestion to final multi-format deliverables.</em>
 </p>
+
+</div>
 
 <details>
 <summary><b>Click to expand step-by-step pipeline details</b></summary>
 
-1. **Stage 1: Topic & Trends**: Searches arXiv or ingests your topic to construct a focused Topic Brief.
-2. **Stage 2: Novelty & Gap Analysis**: Contrasts against 3 to 8 recent baselines and isolates unaddressed bottlenecks.
-3. **Stage 3: Difficulty Calibration**: Aligns mathematical depth and empirical scope to the selected tier (Easy, Medium, Hard, Extreme).
-4. **Stage 4: Simulation & Data Processing**: Runs numerical experiments or ingests user CSVs, computing verified means, variances, and error bars.
-5. **Stage 5: Publication Visuals**: Plots convergence curves, trade-off bar charts, and block schematics.
-6. **Stage 6: Humanizer & Anti-AI Audit**: Purges AI tells, removes zero-width Unicode, and replaces any em dashes.
-7. **Stage 7: Multi-Format Build & Workspace Cleanup**: Compiles LaTeX to PDF, generates Word DOCX, and deletes `.aux` / `.log` artifacts.
-8. **Stage 8: Academic Presentation**: Exports a 16:9 widescreen conference deck (`.pptx`).
+1. **Stage 1: Topic & Trends**: Queries the arXiv API or ingests your topic to construct a focused research brief.
+2. **Stage 2: Novelty & Gap Analysis**: Contrasts against 3 to 8 recent baselines to identify the unaddressed scientific gap.
+3. **Stage 3: Difficulty Calibration**: Aligns mathematical density and empirical requirements to the chosen tier.
+4. **Stage 4: Scientific Simulation**: Runs numerical experiments or ingests user CSVs, computing verified means and variances.
+5. **Stage 5: Publication Figures**: Plots convergence curves, trade-off bar charts, and block schematics at 300+ DPI.
+6. **Stage 6: Humanizer & Anti-AI Audit**: Purges AI tells, removes zero-width characters, and strictly eliminates all em dashes.
+7. **Stage 7: Multi-Format Build & Cleanup**: Compiles LaTeX to PDF, generates Word DOCX, and removes temporary auxiliary files.
+8. **Stage 8: Academic Presentations**: Exports a 16:9 widescreen conference presentation deck (`.pptx`).
 
 </details>
 
+<div align="center">
+
+<br/>
+
 ---
 
-## 📊 Visual Figure & Plot Gallery
+## 📊 Visual Figure Showcase
 
-Every generated manuscript comes equipped with publication-ready figures conforming to Nature, Science, and IEEE visual guidelines:
+<img src="assets/composite_showcase.png" alt="Publication Figure Showcase" width="100%"/>
 
 <p align="center">
-  <img src="assets/fig1_convergence.png" alt="Convergence Trajectory Comparison" width="48%"/>
-  <img src="assets/fig2_tradeoff.png" alt="Performance Trade-Off Analysis" width="48%"/>
+  <em>Figure 2: Multi-panel publication figure suite generated by the ecosystem, demonstrating convergence trajectories, trade-off bar charts, modular system architectures, and deliverable outputs.</em>
+</p>
+
+<br/>
+
+### Individual Publication Panels
+
+<p align="center">
+  <img src="assets/fig1_convergence.png" alt="Convergence Trajectory" width="48%"/>
+  <img src="assets/fig2_tradeoff.png" alt="Trade-Off Bar Chart" width="48%"/>
 </p>
 
 <p align="center">
-  <img src="assets/fig3_architecture.png" alt="System Architecture Block Diagram" width="96%"/>
+  <img src="assets/fig3_architecture.png" alt="System Architecture Schematic" width="96%"/>
 </p>
 
-<p align="center">
-  <em>Figure 1 (Left): Convergence curve with shaded confidence interval bands. Figure 2 (Right): Dual-axis trade-off bar chart. Figure 3 (Bottom): Vector-style modular system architecture diagram.</em>
-</p>
+<br/>
 
 ---
 
 ## 🎯 The 4 Difficulty Tiers
 
-The framework calibrates mathematical density, empirical rigor, and prose to four explicit tiers:
+<br/>
 
 | Tier | Mathematical Depth | Empirical Scope | Intended Readership | Target Venues |
-| :--- | :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: | :---: |
 | **Easy** | Basic algebra, intuitive formulas, plain explanations | 1 to 2 benchmark comparisons, case studies | Students, practitioners, cross-disciplinary readers | Workshops, applied venues, technical magazines |
 | **Medium** | Formal problem definitions, objective functions, algorithms | 3 to 5 established baselines, error bars | Academic researchers, graduate students, regular reviewers | IEEE Transactions, ACM SIG, Elsevier, Springer LNCS |
 | **Hard** | Formal Theorems, Lemmas, propositions, derivations | SOTA baselines, multi-seed significance (p < 0.01) | Domain specialists, senior program committees | NeurIPS, ICML, CVPR, ICLR, IEEE TPAMI, JMLR |
 | **Extreme** | Novel mathematical paradigms, complete first-principle proofs | Frontier-scale simulation, multi-regime stress tests | World-leading authorities, fellowship committees | Nature, Science, PNAS, STOC, FOCS, COLT |
 
+<br/>
+
+</div>
+
 <details>
-<summary><b>Click to read detailed guidelines for each tier</b></summary>
+<summary><b>Click to view tier specifications and rubrics</b></summary>
 
 - **Easy**: Conceptual, intuitive, and pedagogical. Mathematical equations are paired with immediate plain-language translations. Ideal for instructional papers, applied demonstrations, and undergraduate capstones.
 - **Medium**: Competitive standard for regular peer-reviewed submissions. Includes formal system models, pseudo-code algorithm blocks, Big-O complexity calculations, and ablation studies.
@@ -111,56 +128,70 @@ The framework calibrates mathematical density, empirical rigor, and prose to fou
 
 </details>
 
+<div align="center">
+
+<br/>
+
 ---
 
 ## 🚫 Strict No Em-Dash & Anti-AI Policy
 
-### 1. Mandatory Zero Em-Dash Rule
-Under no circumstances are em dashes (`—`, `\textemdash`, `---`, or `--`) permitted in the ecosystem. Sentences are structured cleanly with:
-- **Parentheses**: `The proposed algorithm (which requires no central server) converges in O(1/k).`
-- **Colons**: `We observe a critical failure mode: gradient divergence under asynchronous delay.`
-- **Commas & Semicolons**: `Prior methods demand synchronous barriers, which induces idle latency.`
-- **Split Sentences**: `Edge nodes possess constrained memory. This limitation forces aggressive quantization.`
+<br/>
 
-### 2. Elimination of AI Tells
-The automated linter (`scripts/academic_humanizer.py`) eliminates:
-- Banned AI words (*delve, tapestry, pivotal, testament, underscore, intricate, realm, multifaceted, seamless, foster, sheds light on, paves the way for*).
-- Superficial participle tails (*..., highlighting the significance of...*).
-- Invisible zero-width tracking characters (`\u200b`, `\u200c`, `\u200d`, `\ufeff`).
+<table align="center">
+<tr>
+<th align="center">Policy Directive</th>
+<th align="center">Implementation Mechanism</th>
+<th align="center">Standard Replacement</th>
+</tr>
+<tr>
+<td align="center"><strong>Strict Zero Em-Dashes</strong></td>
+<td>Completely prohibited across all text, captions, and slides</td>
+<td>Colons, parentheses, commas, or separate sentences</td>
+</tr>
+<tr>
+<td align="center"><strong>Zero-Width Watermark Purging</strong></td>
+<td>Strips hidden Unicode tracking characters</td>
+<td>Purges <code>\u200b</code>, <code>\u200c</code>, <code>\u200d</code>, <code>\ufeff</code></td>
+</tr>
+<tr>
+<td align="center"><strong>Banned AI Vocabulary</strong></td>
+<td>Eliminates telltale generic LLM phrasing</td>
+<td>Replaces <em>delve, tapestry, pivotal, testament, underscore</em></td>
+</tr>
+<tr>
+<td align="center"><strong>Lucid Rigor Standard</strong></td>
+<td>Ensures prose is accessible to readers across disciplines</td>
+<td>Clear analogies before formal mathematical notation</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
 ## 🚀 Quickstart & Installation
 
-### Step 1: Clone the Repository
+</div>
+
 ```bash
+# Clone the repository
 git clone https://github.com/UmarIqbal000/Research-Skill-UmarIqbal.git
 cd Research-Skill-UmarIqbal
-```
 
-### Step 2: Install Python Dependencies
-```bash
+# Install Python dependencies
 pip install -r requirements.txt
 ```
 
-### Step 3: Verify LaTeX Support
-Ensure `pdflatex` is available on your system path:
-```bash
-# On Windows (MiKTeX)
-where pdflatex
+<div align="center">
 
-# On Linux / macOS (TeX Live)
-which pdflatex
-```
+<br/>
 
 ---
 
 ## 💻 Command Line Interface (CLI)
 
-The `cli.py` script provides direct command-line access to all ecosystem modules:
-
-<details open>
-<summary><b>Common CLI Recipes</b></summary>
+</div>
 
 ```bash
 # Generate a complete paper (Easy tier, IEEE two-column format)
@@ -188,32 +219,40 @@ python cli.py humanize --file draft.txt --output cleaned_draft.txt
 python cli.py compile --tex ./outputs/paper_easy/manuscript.tex
 ```
 
-</details>
+<div align="center">
+
+<br/>
 
 ---
 
 ## 🏛️ The 14 Integrated Research Foundations
 
-This skill synthesizes core innovations from 14 prominent research tools:
+<br/>
 
-1. **Google Research Paper Orchestra**: Multi-agent division of labor across outlines, literature synthesis, drafting, and visuals.
-2. **Master-cai Research-Paper-Writing-Skills**: Reverse outlining, section-by-section writing guides, and adversarial self-review.
-3. **Turnitout-Humanizer**: Deterministic token disruption and anti-AI-detector protection.
-4. **AIScientists-Dev Academic-Humanizer**: Claim-to-evidence discipline, removal of formulaic transition words, and no em-dashes.
-5. **TingxiYu Academic-Figure-Skill**: Publication-grade figure design, 89 mm / 183 mm print dimensions, and vector PDF exports.
-6. **Techkwon PaperVizAgent**: Architectural pipeline visualization and automated layout composition.
-7. **Ndpvt-web LaTeX-Document-Skill**: Multi-pass compilation, BibTeX cross-referencing, and auxiliary build artifact cleanup.
-8. **ComposioHQ DOCX Skill**: Structured academic Microsoft Word generation with custom styles and clean booktabs tables.
-9. **Gabberflast Academic-PPTX-Skill**: Ghost Deck principle, Action Titles, and two-column exhibit slide layouts.
-10. **Yejinlei Web-Search-Skill**: Multi-engine search automation and trending discovery.
-11. **Ray0907 arXiv-Research-Skill**: arXiv API queries, preprint extraction, and literature mapping.
-12. **Cookjohn GS-Skills**: Google Scholar citation discovery and literature synthesis.
-13. **Oleafly**: Universal venue templates (IEEE, ACM, Springer, Elsevier, Nature, NeurIPS, APA).
-14. **AhmadHassan-BTed Turnitout**: Mathematical n-gram sequence disruption and citation management.
+| Repository / Framework | Core Architectural Contribution Synthesized |
+| :--- | :--- |
+| **Google Research Paper Orchestra** | Multi-agent orchestration across literature, drafting, and visuals |
+| **Master-cai Research-Paper-Writing-Skills** | Reverse outlining, section guides, and adversarial self-review |
+| **Turnitout-Humanizer** | Deterministic token disruption and anti-AI-detector protection |
+| **AIScientists-Dev Academic-Humanizer** | Claim-to-evidence coupling and prohibition of em dashes |
+| **TingxiYu Academic-Figure-Skill** | Publication figure design, 89 mm / 183 mm print dimensions |
+| **Techkwon PaperVizAgent** | Architectural pipeline visualization and layout composition |
+| **Ndpvt-web LaTeX-Document-Skill** | Multi-pass pdflatex builds and automatic auxiliary file cleanup |
+| **ComposioHQ DOCX Skill** | Structured academic Microsoft Word generation with booktabs styling |
+| **Gabberflast Academic-PPTX-Skill** | Ghost Deck principle, Action Titles, and two-column exhibit layouts |
+| **Yejinlei Web-Search-Skill** | Multi-engine search automation and trending discovery |
+| **Ray0907 arXiv-Research-Skill** | arXiv API integration, preprint extraction, and literature mapping |
+| **Cookjohn GS-Skills** | Google Scholar citation discovery and literature synthesis |
+| **Oleafly** | Universal venue templates (IEEE, ACM, Springer, Elsevier, Nature, APA) |
+| **AhmadHassan-BTed Turnitout** | Mathematical n-gram sequence disruption and citation management |
+
+<br/>
 
 ---
 
 ## 📁 Repository Structure
+
+</div>
 
 ```
 Research_Skill_UmarIqbal/
@@ -237,7 +276,7 @@ Research_Skill_UmarIqbal/
 │   ├── 10_academic_pptx_presentations.md
 │   └── 11_accessible_scholarly_language.md
 ├── scripts/
-│   ├── topic_discovery.py            # arXiv queries & trend catalogs
+│   ├── topic_discovery.py            # arXiv queries and trend catalogs
 │   ├── novelty_gap_analyzer.py       # SOTA comparison matrix & novelty gate
 │   ├── simulation_engine.py          # Monte Carlo, ODE dynamics, & benchmark suites
 │   ├── academic_figures.py           # Publication plots (Nature/IEEE vector PDF & PNG)
@@ -254,28 +293,38 @@ Research_Skill_UmarIqbal/
 ├── requirements.txt                  # Python dependencies
 ├── SKILL.md                          # Master Antigravity / Agent Skill definition
 ├── LICENSE                           # Open source MIT License
-└── README.md                         # Interactive Documentation
+└── README.md                         # Centralized Documentation
 ```
+
+<div align="center">
+
+<br/>
 
 ---
 
-## 🔬 Pre-Compiled Working Examples
+## 🔬 Pre-Compiled Working Deliverables
 
 The repository includes complete, pre-compiled deliverables:
-- **Easy Level Sample**: [`examples/easy_level_sample`](examples/easy_level_sample)
-  - Topic: *Federated Learning for Edge Healthcare Devices*
-  - Artifacts: [manuscript.pdf](examples/easy_level_sample/manuscript.pdf) (116 KB), [manuscript.docx](examples/easy_level_sample/manuscript.docx), [conference_presentation.pptx](examples/easy_level_sample/conference_presentation.pptx), and 3 figures.
-- **Extreme Level Sample**: [`examples/extreme_level_sample`](examples/extreme_level_sample)
-  - Topic: *Information-Theoretic Convergence Bounds in Non-Convex Multi-Agent Systems*
-  - Artifacts: [manuscript.pdf](examples/extreme_level_sample/manuscript.pdf) (116 KB), [manuscript.docx](examples/extreme_level_sample/manuscript.docx), [conference_presentation.pptx](examples/extreme_level_sample/conference_presentation.pptx), and 3 figures.
+
+**[Easy Level Sample](examples/easy_level_sample)**:
+*Topic: Federated Learning for Edge Healthcare Devices*
+<br/>
+[📄 manuscript.pdf](examples/easy_level_sample/manuscript.pdf) (116 KB) • [📝 manuscript.docx](examples/easy_level_sample/manuscript.docx) • [📊 conference_presentation.pptx](examples/easy_level_sample/conference_presentation.pptx) • 3 Figures
+
+<br/>
+
+**[Extreme Level Sample](examples/extreme_level_sample)**:
+*Topic: Information-Theoretic Convergence Bounds in Non-Convex Multi-Agent Systems*
+<br/>
+[📄 manuscript.pdf](examples/extreme_level_sample/manuscript.pdf) (116 KB) • [📝 manuscript.docx](examples/extreme_level_sample/manuscript.docx) • [📊 conference_presentation.pptx](examples/extreme_level_sample/conference_presentation.pptx) • 3 Figures
+
+<br/>
 
 ---
 
 ## 📜 License & Citation
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for complete details.
-
-If you use this ecosystem or skill in your research, publications, or coding agents, please cite:
 
 ```bibtex
 @software{iqbal2026researchskill,
@@ -285,3 +334,9 @@ If you use this ecosystem or skill in your research, publications, or coding age
   year = {2026}
 }
 ```
+
+<br/>
+
+**Built with precision for the global research community.**
+
+</div>
