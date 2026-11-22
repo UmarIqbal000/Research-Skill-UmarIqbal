@@ -1,0 +1,80 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{cite}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Paper Title: Specific and Declarative Without Em Dashes}
+
+\author{Umar~Iqbal,~\IEEEmembership{Member,~IEEE,}
+        and~Collaborator~Name,~\IEEEmembership{Senior~Member,~IEEE}%
+\thanks{Manuscript received November 22, 2026. U. Iqbal is with the Department of Computer Science, Advanced Systems Laboratory.}%
+\thanks{Digital Object Identifier 10.1109/XXXX.2026.XXXXXXX}}
+
+\markboth{IEEE Transactions on Knowledge and Data Engineering,~Vol.~XX, No.~XX,~2026}%
+{Iqbal \MakeLowercase{\textit{et al.}}: Paper Title}
+
+\maketitle
+
+\begin{abstract}
+The abstract provides a self-contained summary of the research in 150 to 250 words. It states the context, the exact limitation in prior literature, the proposed core mechanism, the key quantitative result, and the broader technical implications. No em dashes are permitted in the abstract or body text.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Decentralized optimization, edge computing, federated learning, robust convergence.
+\end{IEEEkeywords}
+
+\section{Introduction}
+\IEEEPARstart{D}{ecentralized} computing environments face fundamental trade-offs between local computational efficiency and global network synchronization. As modern edge deployments scale to thousands of heterogeneous nodes, non-uniform communication delays and non-IID data distributions induce severe client drift \cite{mcmahan2017communication}.
+
+Prior investigations typically mitigate drift by enforcing strict global synchrony \cite{li2020federated} or exchanging high-dimensional control variates \cite{karimireddy2020scaffold}. However, these approaches incur heavy communication payloads that degrade performance over bandwidth-constrained links.
+
+To address these limitations, we introduce an adaptive aggregation protocol. Our formulation introduces localized momentum tracking, which provably bounds parameter drift without requiring central parameter coordinators.
+
+\section{Related Work}
+Existing frameworks generally fall into two broad taxonomies: synchronous proximal averaging and variance-reduced local SGD. We summarize these paradigms in Table~\ref{tab:sota_comparison} and contrast their core assumptions against our proposed method.
+
+\section{System Model and Problem Formulation}
+Consider a decentralized network represented by an undirected graph $G = (V, E)$, where $V = \{1, 2, \dots, N\}$ denotes the set of participating nodes. Each node $i$ possesses a local empirical risk function $F_i(w)$. The global objective is formulated as:
+\begin{equation}
+\min_{w \in \mathbb{R}^d} F(w) \triangleq \frac{1}{N} \sum_{i=1}^N F_i(w).
+\label{eq:objective}
+\end{equation}
+
+\section{Experimental Evaluation}
+We evaluate the proposed framework across standardized empirical regimes. Figure~\ref{fig:convergence} illustrates the convergence trajectory over communication rounds.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\columnwidth]{figures/fig1_convergence.pdf}
+\caption{Convergence trajectory comparison across 40 communication rounds. The shaded region denotes standard deviation across five independent random seeds.}
+\label{fig:convergence}
+\end{figure}
+
+\begin{table}[t]
+\centering
+\caption{Quantitative benchmark comparison across evaluation metrics.}
+\label{tab:benchmarks}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Approach} & \textbf{Accuracy (\%)} & \textbf{Latency (ms)} & \textbf{Memory (MB)} & \textbf{Rounds} \\
+\midrule
+Baseline A & 82.4 & 45.2 & 512 & 120 \\
+Baseline B & 85.1 & 42.0 & 480 & 105 \\
+Baseline C & 87.3 & 39.5 & 502 & 95 \\
+\textbf{Ours (Proposed)} & \textbf{91.8} & \textbf{24.1} & \textbf{310} & \textbf{58} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Conclusion}
+This paper presented an adaptive framework for decentralized optimization. By combining localized momentum tracking with robust aggregation, our method guarantees rapid convergence and high empirical accuracy while remaining accessible and reproducible.
+
+\nocite{*}
+\bibliographystyle{IEEEtran}
+\bibliography{manuscript}
+
+\end{document}

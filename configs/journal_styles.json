@@ -1,0 +1,93 @@
+{
+  "ieee": {
+    "name": "IEEE Transactions & Conference Format",
+    "latex_class": "IEEEtran",
+    "columns": 2,
+    "citation_style": "numeric",
+    "citation_format": "[1], [2]-[4]",
+    "section_numbering": "Roman (I., II., III.)",
+    "figure_caption_position": "below",
+    "table_caption_position": "above",
+    "abstract_style": "italicized block without heading or with IEEEtran standard heading",
+    "template_dir": "templates/latex/ieee",
+    "primary_font": "Times New Roman / Computer Modern Roman"
+  },
+  "acm": {
+    "name": "ACM Conference / Journal (SIGCONF)",
+    "latex_class": "acmart",
+    "columns": 2,
+    "citation_style": "numeric-bracket",
+    "citation_format": "[1], [2]",
+    "section_numbering": "Arabic (1, 1.1, 1.1.1)",
+    "figure_caption_position": "below",
+    "table_caption_position": "above",
+    "abstract_style": "standard ACM block with CCS Concepts and Keywords",
+    "template_dir": "templates/latex/acm",
+    "primary_font": "Linux Biolinum / Libertine"
+  },
+  "springer_lncs": {
+    "name": "Springer Lecture Notes in Computer Science (LNCS)",
+    "latex_class": "llncs",
+    "columns": 1,
+    "citation_style": "numeric-bracket",
+    "citation_format": "[1]",
+    "section_numbering": "Arabic (1, 1.1)",
+    "figure_caption_position": "below",
+    "table_caption_position": "above",
+    "abstract_style": "standard LNCS single-column abstract followed by keywords",
+    "template_dir": "templates/latex/springer",
+    "primary_font": "Computer Modern Roman"
+  },
+  "elsevier": {
+    "name": "Elsevier Article (elsarticle)",
+    "latex_class": "elsarticle",
+    "columns": 2,
+    "citation_style": "numeric or author-year",
+    "citation_format": "[1] or (Smith et al., 2024)",
+    "section_numbering": "Arabic (1., 1.1.)",
+    "figure_caption_position": "below",
+    "table_caption_position": "above",
+    "abstract_style": "frontmatter abstract block with highlights and keywords",
+    "template_dir": "templates/latex/elsevier",
+    "primary_font": "Times / Caslon"
+  },
+  "nature_science": {
+    "name": "Nature / Science Interdisciplinary Format",
+    "latex_class": "article",
+    "columns": 1,
+    "citation_style": "superscript",
+    "citation_format": "^{1,2}",
+    "section_numbering": "Minimal / Bold inline headers without formal numbers",
+    "figure_caption_position": "below with bold title sentence",
+    "table_caption_position": "above with bold title sentence",
+    "abstract_style": "unreferenced ~150-200 word summary paragraph presenting background, gap, result, and broader meaning",
+    "template_dir": "templates/latex/nature",
+    "primary_font": "Helvetica / Times New Roman"
+  },
+  "neurips": {
+    "name": "NeurIPS / ICML / ICLR Machine Learning Format",
+    "latex_class": "article",
+    "columns": 1,
+    "citation_style": "author-year or numeric",
+    "citation_format": "(Smith et al., 2024) or [1]",
+    "section_numbering": "Arabic (1, 1.1)",
+    "figure_caption_position": "below",
+    "table_caption_position": "above",
+    "abstract_style": "bold abstract header with indented block",
+    "template_dir": "templates/latex/neurips",
+    "primary_font": "Times Roman / CMR"
+  },
+  "generic_apa": {
+    "name": "Generic Academic / APA 7th Edition Format",
+    "latex_class": "article",
+    "columns": 1,
+    "citation_style": "author-year",
+    "citation_format": "(Author, 2024)",
+    "section_numbering": "Standard hierarchical headings",
+    "figure_caption_position": "below",
+    "table_caption_position": "above",
+    "abstract_style": "standard centered Abstract title with single block text",
+    "template_dir": "templates/latex/generic",
+    "primary_font": "Times New Roman"
+  }
+}

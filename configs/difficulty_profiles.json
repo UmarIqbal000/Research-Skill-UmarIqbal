@@ -1,0 +1,79 @@
+{
+  "easy": {
+    "tier_name": "Easy / Foundational",
+    "description": "Accessible, intuitive, and practical paper with minimal mathematical complexity and maximum conceptual clarity.",
+    "math_depth": "Low",
+    "math_guidelines": [
+      "Limit formulations to standard algebra, basic arithmetic, and high-level conceptual equations.",
+      "Explain every equation in plain language immediately following its presentation.",
+      "Avoid multi-page theorem-proof blocks; replace with intuitive rationale and flow diagrams."
+    ],
+    "empirical_depth": "Moderate",
+    "empirical_guidelines": [
+      "Include 1-2 standard benchmark evaluations or intuitive case studies.",
+      "Present clear comparative tables with highlighted best performers.",
+      "Focus on practical implications, straightforward trade-offs, and usability."
+    ],
+    "target_readership": "Undergraduate students, practitioners, cross-disciplinary readers, and general engineers.",
+    "target_venues": ["Workshops", "Applied Conferences", "Technical Magazines", "Undergraduate Research Journals"],
+    "tone": "Pedagogical, lucid, transparent, direct, and completely free of unnecessary jargon."
+  },
+  "medium": {
+    "tier_name": "Medium / Standard Peer-Reviewed",
+    "description": "Standard high-quality conference or journal paper (IEEE/ACM/Elsevier caliber) with rigorous methodology and balanced math.",
+    "math_depth": "Medium",
+    "math_guidelines": [
+      "Include formal problem formulation with explicit notation, input/output spaces, and objective functions.",
+      "Provide step-by-step algorithmic formulation with pseudo-code and parameter definitions.",
+      "Use formal definitions for core concepts."
+    ],
+    "empirical_depth": "High",
+    "empirical_guidelines": [
+      "Evaluate against 3-5 established baselines on standard benchmark datasets or simulation regimes.",
+      "Report standard deviations / confidence intervals across at least 3-5 random seeds.",
+      "Conduct systematic ablation studies isolating the contribution of each key component.",
+      "Include statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test)."
+    ],
+    "target_readership": "Graduate researchers, domain specialists, and conference peer reviewers.",
+    "target_venues": ["IEEE Transactions", "ACM Conferences", "Elsevier Core Journals", "Springer LNCS"],
+    "tone": "Scholarly, evidence-tied, neutral, objective, and structured."
+  },
+  "hard": {
+    "tier_name": "Hard / Advanced Rigorous",
+    "description": "Top-tier conference / premier journal paper (NeurIPS, ICML, CVPR, IEEE TPAMI) featuring deep theoretical derivations and extensive empirical validation.",
+    "math_depth": "High",
+    "math_guidelines": [
+      "Formulate formal Theorems, Lemmas, Propositions, and Corollaries with complete proofs.",
+      "Derive theoretical bounds (e.g., convergence rates, sample complexity, generalization bounds, or Lyapunov stability).",
+      "Include rigorous asymptotic complexity analysis (Big-O, Omega, Theta)."
+    ],
+    "empirical_depth": "Very High",
+    "empirical_guidelines": [
+      "Comprehensive multi-benchmark comparison against all state-of-the-art baselines.",
+      "Extensive ablation studies exploring hyperparameters, sensitivity, scalability, and extreme edge conditions.",
+      "Full error-budget analysis and failure mode characterization."
+    ],
+    "target_readership": "Leading researchers, theoretical specialists, and senior program committee members.",
+    "target_venues": ["NeurIPS", "ICML", "ICLR", "CVPR", "IEEE TPAMI", "JMLR", "SIAM Journals"],
+    "tone": "Deeply technical, uncompromisingly rigorous, mathematically exact, and analytical."
+  },
+  "extreme": {
+    "tier_name": "Extreme / Breakthrough Landmark",
+    "description": "Ultimate tier research paper (Nature, Science, STOC/FOCS, Breakthrough caliber) offering novel foundational paradigms and exhaustive theoretical proofs.",
+    "math_depth": "Extreme",
+    "math_guidelines": [
+      "Introduce novel mathematical formulations or theoretical paradigms that resolve open problems.",
+      "Provide exhaustive formal mathematical proofs from first principles, included in a rigorous dedicated Appendix.",
+      "Establish both upper and lower bounds, min-max optimality, or topological/measure-theoretic foundations."
+    ],
+    "empirical_depth": "Extreme",
+    "empirical_guidelines": [
+      "Massive-scale empirical validation or comprehensive high-dimensional simulation regimes.",
+      "Empirical confirmation of theoretical asymptotic rates under varying conditions.",
+      "Cross-domain stress testing and exhaustive sensitivity analysis over multiple orders of magnitude."
+    ],
+    "target_readership": "World-leading scientific authorities, fellowship committees, and journal editors-in-chief.",
+    "target_venues": ["Nature", "Science", "PNAS", "STOC/FOCS", "COLT", "Annals of Mathematics"],
+    "tone": "Foundational, monumental, authoritative, yet written with crystal-clear intuition before formal mechanics."
+  }
+}
